@@ -8,10 +8,9 @@ padding-right:5%;
 #blanco{
   color:white;
 }
-#tam{
-  width: 75%;
-  height: 95%;
-}
+#mdialTamanio{
+      width: 80% !important;
+    }
 h1{
   font-family: cursive;
   font-size: 80px;
