@@ -19,9 +19,9 @@
 <body>
 
   <div class="container-fluid" id="presentacion">
-      <h1 class="text-center display-1" id="blanco">2 Meses</h1>
+      <h1 class="text-center display-1" id="blanco">2 Meses💗</h1>
       <center>
-      <p class="">
+      <p class="display-1">
         Primero que nada quiero agradecerte por estos dos hermosos meses que pasé junto a vos, en estos dos
         meses me demostraste dia a dia que puedo confiar en vos asi como te demostré que también podes
         confiar en mi.
@@ -34,7 +34,7 @@
   <div class="container-fluid" id="primeraparte">
     <center>
       <p>
-        Nuestro primer beso..
+        Nuestro primer beso..😘
       </p>
     <img src="ubicacion.jpeg" alt="ubicacion" height="55%" width="55%">
     </center>
@@ -43,7 +43,7 @@
   <div class="container-fluid" id="segundaparte">
       <center>
         <p>
-          Cuando nos pusimos de novios..
+          Cuando nos pusimos de novios..😍
         </p>
         <img src="calendario.png" alt="calendario" height="55%" width="55%">
       </center>
@@ -52,7 +52,7 @@
   <div class="container-fluid" id="terceraparte">
       <center>
       <p>
-      O todos los momentos que pasamos juntos..
+      O todos los momentos que pasamos juntos..😊
       </p>
       </center>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -123,23 +123,21 @@
 </div>
   </div>
   <div class="container-fluid" id="cuartaparte">
+
     <center>
     <p id="blanco">
       Entiendo lo dificil que debe ser estar lejos de las personas que mas queres
       por eso te queria regalar este video que espero que te guste..
     </p>
     </center>
-    <!-- Button trigger modal -->
-    <center>
-    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
-      Abrir Video
-    </button>
-    </center>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content" width="95%" height="95%">
+    <!-- Extra large modal -->
+    <center>
+    <button type="button" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal-xl">Abrir Video</button>
+    </center>
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalCenterTitle">11/10/2019</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -152,6 +150,29 @@
             </center>
           </div>
           <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-x2">Siguiente</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade bd-example-modal-x2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-x1">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">11/10/2019</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <center>
+            <video src="video2.mp4" width="95%" height="95%" controls="controls"></video>
+            </center>
+          </div>
+          <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
@@ -159,8 +180,6 @@
     </div>
 
   </div>
-
-
 
 </body>
 </html>
