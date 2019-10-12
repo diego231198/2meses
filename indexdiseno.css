@@ -13,7 +13,7 @@ p {
   font-family: "Arial", Times, serif;
   font-family: cursive;
 }
-#presentacion p ,#primeraparte p, #segundaparte p, #terceraparte p, #cuartaparte p{
+#primeraparte p, #segundaparte p, #terceraparte p, #cuartaparte p{
   font-family: "serif";
   font-size: 30px;
 }
