@@ -7,12 +7,13 @@ padding-right:5%;
 }
 h1{
   font-family: cursive;
+  font-size: 200px;
 }
 p {
   font-family: "Arial", Times, serif;
   font-family: cursive;
 }
-#primeraparte p, #segundaparte p, #terceraparte p, #cuartaparte p{
+#presentacion p ,#primeraparte p, #segundaparte p, #terceraparte p, #cuartaparte p{
   font-family: "serif";
   font-size: 30px;
 }
