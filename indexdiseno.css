@@ -7,11 +7,12 @@ padding-right:5%;
 }
 h1{
   font-family: cursive;
-  font-size: 500px;
+  font-size: 80px;
 }
 p {
   font-family: "Arial", Times, serif;
   font-family: cursive;
+  font-size: 30px;
 }
 #primeraparte p, #segundaparte p, #terceraparte p, #cuartaparte p{
   font-family: "serif";
@@ -45,22 +46,4 @@ padding-top:5%;
 padding-bottom:5%;
 padding-left:5%;
 padding-right:5%;
-}
-
-
-
-
-li{
-  background-color: yellow;
-  display: inline;
-}
-#barralateral{
-  background-color: blue;
-  height: 1100px;
-  float: left;
-  clear: both;
-}
-#cuerpo{
-  background-color: grey;
-  margin-left: 200px;
 }
